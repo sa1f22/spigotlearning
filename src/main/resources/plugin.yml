@@ -1,0 +1,20 @@
+name: spigotlearning
+version: '1.0-SNAPSHOT'
+main: com.sa1f.spigotlearning.Spigotlearning
+api-version: '1.21'
+commands:
+  spawn:
+  book:
+  msg2:
+  coolteleport:
+    aliases:
+      - cooltp
+      - ctp
+permissions:
+  spigotlearning.coolteleport.long:
+    default: true
+  spigotlearning.coolteleport.short:
+    default: false
+  spigotlearning.coolteleport.instant:
+    default: false
+
